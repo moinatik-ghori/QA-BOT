@@ -61,7 +61,7 @@ Follow these steps to install and run the Document Q&A Chatbot on your local mac
 ### Step 1: Clone the Repository
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/document-qa-chatbot.git
+git clone git@github.com:moinatik-ghori/QA-BOT.git
 cd document-qa-chatbot
 ```
 ### Step 2: Install Dependencies
@@ -101,14 +101,6 @@ document-qa-chatbot/
 ├── requirements.txt        # List of dependencies
 ├── README.md               # Project documentation
 └── sample.txt              # Sample text file for testing
-```
-### Sample_File.txt
-```
-The company policy states that employees are entitled to 20 days of paid leave per year. Employees can carry forward up to 5 unused leave days to the next year. To apply for leave, employees must submit a leave request at least one week in advance. The HR department will review and approve the request within 3 business days.
-
-The office working hours are from 9:00 AM to 6:00 PM, Monday to Friday. Employees are required to take a one-hour lunch break between 1:00 PM and 2:00 PM. Flexible working hours are available for employees who have prior approval from their manager.
-
-The company provides health insurance for all employees. The insurance covers medical, dental, and vision expenses. Employees can add their dependents to the insurance plan by submitting a request to the HR department.
 ```
 
 ## Deployment
