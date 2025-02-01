@@ -1,0 +1,18 @@
+# Ignore everything by default
+*
+
+# Allow .py and .txt files
+!*.py
+!*.txt
+
+# Allow the .gitignore file itself
+!.gitignore
+
+# Ignore specific directories (e.g., __pycache__, .streamlit, etc.)
+__pycache__/
+.streamlit/
+venv/
+env/
+.vscode/
+.idea/
+.DS_Store
