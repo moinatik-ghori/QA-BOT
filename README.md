@@ -31,30 +31,22 @@ This is a **Document Q&A Chatbot** built using **Streamlit**, **Hugging Face Tra
 ---
 
 ## Sample Questions
+```text
+Question 1
+Question : "How many PTOs employee can have in a year"  
+Answer   : "20 days of paid leave"
 
-### Question 1
-**Question**: "How many days of paid leave are employees entitled to?"  
-**Answer**: "Employees are entitled to 20 days of paid leave per year."
+Question 2
+Question  : "What is the office timing?"  
+Answer    : "9:00 AM to 6:00 PM"
 
-### Question 2
-**Question**: "What are the office working hours?"  
-**Answer**: "The office working hours are from 9:00 AM to 6:00 PM, Monday to Friday."
+Question 3
+Question  : "What is the office timing?"  
+Answer    : "Between 1:00 PM and 2:00 PM"
+```
 
-### Question 3
-**Question**: "How can employees apply for leave?"  
-**Answer**: "Employees must submit a leave request at least one week in advance."
 
-### Question 4
-**Question**: "What does the health insurance cover?"  
-**Answer**: "The insurance covers medical, dental, and vision expenses."
-
-### Question 5
-**Question**: "Can employees carry forward unused leave days?"  
-**Answer**: "Employees can carry forward up to 5 unused leave days to the next year."
-
----
-
-## Installation
+## Local Deployment
 
 Follow these steps to install and run the Document Q&A Chatbot on your local machine.
 
@@ -67,16 +59,24 @@ cd document-qa-chatbot
 ### Step 2: Install Dependencies
 Install the required Python packages using the requirements.txt file:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 
 ### Step 3: Run the Application
 #### Start the Streamlit app:
-```
+```bash
 streamlit run app.py
 ```
+## Cloud Deployment
+
+You can deploy the app on cloud platforms like Streamlit Sharing, Heroku, or AWS. Here’s an example for Streamlit Sharing:
+
+- Create a requirements.txt file (already included in the repository).
+- Push your code to a GitHub repository.
+- Go to Streamlit Sharing, log in with your GitHub account, and deploy the app by selecting your repository.
+
 ### Step 4: Access the Chatbot
 
 Open your browser and navigate to the URL provided in the terminal (usually http://localhost:8501).
@@ -102,25 +102,6 @@ document-qa-chatbot/
 ├── README.md               # Project documentation
 └── sample.txt              # Sample text file for testing
 ```
-
-## Deployment
-### Local Deployment
-
-Follow the installation steps above.
-
-Run the Streamlit app:
-
-```
-streamlit run app.py
-```
-
-## Cloud Deployment
-
-You can deploy the app on cloud platforms like Streamlit Sharing, Heroku, or AWS. Here’s an example for Streamlit Sharing:
-
-- Create a requirements.txt file (already included in the repository).
-- Push your code to a GitHub repository.
-- Go to Streamlit Sharing, log in with your GitHub account, and deploy the app by selecting your repository.
 
 ## Contributing
 
