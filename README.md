@@ -1,4 +1,4 @@
-# Document Q&A Chatbot
+# Search Document - QA-BOT
 
 This is a **Document Q&A Chatbot** built using **Streamlit**, **Hugging Face Transformers**, and **FAISS** for efficient document retrieval. The chatbot allows users to upload text or PDF documents and ask questions about the content. It uses a pre-trained language model to generate accurate and detailed answers.
 
@@ -30,7 +30,7 @@ This is a **Document Q&A Chatbot** built using **Streamlit**, **Hugging Face Tra
 ```
 ---
 
-## Sample Questions
+### Sample Questions
 ```text
 Question 1
 Question : "How many PTOs employee can have in a year"  
@@ -46,7 +46,7 @@ Answer    : "Between 1:00 PM and 2:00 PM"
 ```
 
 
-## Local Deployment
+## Deployment
 
 Follow these steps to install and run the Document Q&A Chatbot on your local machine.
 
@@ -54,7 +54,7 @@ Follow these steps to install and run the Document Q&A Chatbot on your local mac
 Clone the repository to your local machine:
 ```bash
 git clone git@github.com:moinatik-ghori/QA-BOT.git
-cd document-qa-chatbot
+cd QA-BOT
 ```
 ### Step 2: Install Dependencies
 Install the required Python packages using the requirements.txt file:
@@ -69,16 +69,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-## Cloud Deployment
-
-You can deploy the app on cloud platforms like Streamlit Sharing, Heroku, or AWS. Here’s an example for Streamlit Sharing:
-
-- Create a requirements.txt file (already included in the repository).
-- Push your code to a GitHub repository.
-- Go to Streamlit Sharing, log in with your GitHub account, and deploy the app by selecting your repository.
-
 ### Step 4: Access the Chatbot
-
 Open your browser and navigate to the URL provided in the terminal (usually http://localhost:8501).
 
 ## How to Use the Chatbot
